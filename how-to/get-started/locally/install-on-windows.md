@@ -294,6 +294,7 @@ See also: https://github.com/pytorch/pytorch#from-source
    ```
 
    For Python version lower than 3.5, install `typing` first.
+   
 
 2. To get the PyTorch Source, run:
 
@@ -328,6 +329,7 @@ See also: https://github.com/pytorch/pytorch#from-source
    ```
 
    To specify other generator when Ninja is installed, use `set USE_NINJA=OFF`.
+   
 
 4.  *(Optional but recommended for most cases; essential for Python 3.5 users)* 
    
@@ -383,6 +385,7 @@ To ensure that PyTorch was installed correctly, run the sample PyTorch code as f
           [0.4675, 0.3947, 0.1426]])
   ```
 
+  The values of the tensor will be different on your instance. 
   
 
 **Verifying the CUDA driver**
