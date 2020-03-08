@@ -107,7 +107,7 @@ PyTorch 支持使用 GPU 加载模型运算，也能在仅使用CPU 的情况下
 **配置过程**
 
 1. 确认上述硬件和软件要求；
-2. [更新](https://www.nvidia.com/drivers) 英伟达显卡驱动程序；
+2. [更新](https://www.nvidia.com/drivers)英伟达显卡驱动程序；
 3. 若已安装 CUDA，确认CUDA 的版本信息符合要求。
    - 可使用 `nvcc --version` 命令行来获取CUDA 的版本信息。
 4. 若尚未安装 CUDA，根据 [CUDA 安装手册](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows)进行下载安装。
