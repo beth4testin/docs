@@ -71,12 +71,12 @@ PyTorch 支持使用 GPU 加载模型运算，也能在仅使用CPU 的情况下
 
 - **仅需 CPU 的 PyTorch 版本**
 
-  此类安装包不包含 CUDA 与 GPU 加速，省略了需要用到 GPU 的功能，体积较小。
+  此类版本不包含 CUDA 与 GPU 加速，省略了需要用到 GPU 的功能，体积较小。
 
 
 - **支持 GPU 的 PyTorch 版本**
 
-  此类安装包能够启用[运用 GPU 加速](https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html?highlight=cuda#cuda-tensors)的高级功能，体积较大。
+  此类版本能够启用[利用 GPU 加速](https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html?highlight=cuda#cuda-tensors)的高级功能，体积较大。
 
   GPU 比 CPU 更适合深度学习大量运算的需求，一般建议安装支持 GPU 的 PyTorch 版本以获取更优的运算性能。PyTorch 只支持搭载 CUDA 技术的英伟达（NVIDIA）显卡启用 GPU 加速功能。
   
@@ -379,7 +379,7 @@ PyTorch 支持使用 GPU 加载模型运算，也能在仅使用CPU 的情况下
 
 **GPU 可用性检查**
 
-此外，请按照以下步骤检查 PyTorch 是否启用并可以访问 GPU 驱动程序和 CUDA。
+此外，请按照以下步骤检查 PyTorch 是否已启用并能访问 GPU 驱动程序和 CUDA。
 
 - 执行以下命令:
 
