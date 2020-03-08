@@ -1,6 +1,6 @@
 | title                             | summary                       | category | aliases                                               |
 | --------------------------------- | ----------------------------- | -------- | ----------------------------------------------------- |
-| 如何在 Windows 平台上安装 PyTorch | Windows 平台 PyTorch 安装指导 | how-to   | /docs/how-to/get-started/locally/install-on-windows/ |
+| 如何在 Windows 平台上安装 PyTorch | PyTorch 的 Windows 平台安装指南 | how-to   | /docs/how-to/get-started/locally/install-on-windows/ |
 
 
 
