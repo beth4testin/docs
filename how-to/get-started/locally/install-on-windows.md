@@ -362,15 +362,9 @@ set CMAKE_GENERATOR_TOOLSET_VERSION=14.11
 
 To ensure that PyTorch was installed correctly, run the sample PyTorch code as follows. Here we will construct a randomly initialized tensor.
 
-- From the command line, type:
+- From the command line, run:
 
-  ```
-  python
-  ```
-
-- Then enter the following code:
-
-  ```
+  ```python
   from __future__ import print_function
   import torch
   x = torch.rand(5, 3)
