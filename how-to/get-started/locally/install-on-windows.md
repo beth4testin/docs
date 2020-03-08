@@ -54,13 +54,13 @@ Choose the proper version and variant of PyTorch to download.
 
 First, decide whether to get a stable release or a pre-release build.
 
-- **Stable **
+- **Stable**
 
 The most currently tested and supported version of PyTorch, suitable for many users. 
 
 > **Note:** The following sections describe how to install  PyTorch 1.4.0, the current stable release.
 
-- **Preview **
+- **Preview**
 
 The nightly builds of the next major release of PyTorch, not fully tested and supported. 
 
@@ -72,7 +72,7 @@ PyTorch runs both in CPU-only or GPU-powered mode.
 
 For current releases,  CPU-only and GPU-enabled packages are separate.
 
-- **CPU-only **
+- **CPU-only**
 
   The CPU-only variant is built without CUDA and GPU support. It has a smaller installation size, and omits features that would require a GPU. 
 
@@ -117,18 +117,16 @@ For current releases,  CPU-only and GPU-enabled packages are separate.
 1. Check the requirements listed above. 
 2. [Get](https://www.nvidia.com/drivers) the latest NVIDIA driver.
 3. If CUDA is installed, make sure it matches the versions listed above. 
-   - To check for the CUDA version, use `nvcc --version`.
+   To check for the CUDA version, use `nvcc --version`.
 4. If not, read the [CUDA install guide for Windows](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/) and install CUDA.
 
 
 
 ## Step 3: Install PyTorch
 
-Choose from pre-packaged distributions containing binary (precompiled) programs or source code to install PyTorch. 
+Choose from pre-packaged distributions containing binary (precompiled) programs or source code to install PyTorch. When in doubt, use a binary distribution.
 
-When in doubt, use a binary distribution.
-
-For binary distributions, see the instructions in “From Binaries”.
+For binary distributions, see the instructions in “From Binary”. 
 
 To build PyTorch from source, use the instructions in “From Source”.
 
