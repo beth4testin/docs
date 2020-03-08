@@ -322,7 +322,7 @@ PyTorch 支持使用 GPU 加载模型运算，也能在仅使用CPU 的情况下
    若要覆盖基础工具集，请添加以下命令行：
 
    > **注意：** 若使用 Visual Studio 进行该操作，请确保 CMake 的版本高于 3.12。
-
+   
    ```python
    set CMAKE_GENERATOR_TOOLSET_VERSION=14.11
    set DISTUTILS_USE_SDK=1
@@ -332,7 +332,7 @@ PyTorch 支持使用 GPU 加载模型运算，也能在仅使用CPU 的情况下
 5. （以下为可选操作，版本号有较大差异时不推荐执行。）
 
    若要覆盖 CUDA 主机编译器，请设置 `CUDAHOSTCXX`：
-
+   
    ```python
    set CUDAHOSTCXX=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\cl.exe
    ```
@@ -401,6 +401,6 @@ PyTorch 支持使用 GPU 加载模型运算，也能在仅使用CPU 的情况下
 
   实际输出结果中张量的值无需与样例相同。
 
-- 若 `cuda.is_available()` 返回 `False`, 请调试 CUDA 的安装，使 PyTorch 可以检测到您的显卡. 
+- 若 `cuda.is_available()` 返回 `False`, 请调试 CUDA 的安装，确保 PyTorch 检测到您的显卡。
 
   
