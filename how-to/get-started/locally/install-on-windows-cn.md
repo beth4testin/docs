@@ -317,7 +317,7 @@ PyTorch 支持使用 GPU 加载模型运算，也能在仅使用CPU 的情况下
 
 4. （以下为可选操作，推荐执行；若使用 Python 3.5 则必须执行。）
 
-   若要覆盖基础工具集，请添加以下命令行：
+   若要重写底层工具包，请添加以下命令行：
 
    > **注意：** 若使用 Visual Studio 进行该操作，请确保 CMake 的版本高于 3.12。
    
@@ -329,7 +329,7 @@ PyTorch 支持使用 GPU 加载模型运算，也能在仅使用CPU 的情况下
 
 5. （以下为可选操作，当版本号有较大差异时不推荐执行。）
 
-   若要覆盖 CUDA 主机编译器，请设置 `CUDAHOSTCXX`：
+   若要重写 CUDA 主机编译器，请将 `CUDAHOSTCXX`设置为：
    
    ```python
    set CUDAHOSTCXX=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\cl.exe
