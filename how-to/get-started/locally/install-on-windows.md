@@ -1,6 +1,6 @@
 | title                          | summary                     | category | aliases                                            |
 | ------------------------------ | --------------------------- | -------- | -------------------------------------------------- |
-| Installation Guide for Windows | Install PyTorch on Windows. | how-to   | /docs/how-to/get-started/local/install/on-windows/ |
+| Installation Guide for Windows | Install PyTorch on Windows. | how-to   | /docs/how-to/get-started/local/install-on-windows |
 
 
 
