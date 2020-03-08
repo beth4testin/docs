@@ -373,7 +373,7 @@ To ensure that PyTorch was installed correctly, run the sample PyTorch code as f
 
 - The output should be something similar to this:
 
-  ```
+  ```python
   tensor([[0.3380, 0.3845, 0.3217],
           [0.8337, 0.9050, 0.2650],
           [0.2979, 0.7141, 0.9069],
@@ -389,14 +389,14 @@ Additionally, check if your GPU driver and CUDA is enabled and accessible by PyT
 
 - From the command line, type:
 
-  ```
+  ```python
   import torch
   torch.cuda.is_available()
   ```
 
 - This should produce output similar to this:
 
-  ```
+  ```python
   True
    0.6040  0.6647
    0.9286  0.4210
