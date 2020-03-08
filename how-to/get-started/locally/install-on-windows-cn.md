@@ -46,7 +46,7 @@
 
 ## 第一步：选择 PyTorch 版本
 
-对应需求选择合适的 PyTorch 版本。
+请根据需求和条件选择合适的 PyTorch 版本。
 
 
 
@@ -100,9 +100,9 @@ PyTorch 支持使用 GPU 加载模型运算，也能在仅使用CPU 的情况下
 
 **软件要求**
 
-- [英伟达显卡驱动程序](https://www.nvidia.com/drivers) —安装 CUDA 10.1 需要 418.x 或更新版本的显卡驱动。
+- [英伟达显卡驱动程序](https://www.nvidia.com/drivers) —— 安装 CUDA 10.1 需要 418.x 或更新版本的显卡驱动。
 
-- [CUDA 工具包](https://developer.nvidia.com/cuda-toolkit-archive) —PyTorch 1.4.0 支持的 CUDA 版本为 9.2 和 10.1。
+- [CUDA 工具包](https://developer.nvidia.com/cuda-toolkit-archive) —— PyTorch 1.4.0 支持的 CUDA 版本为 9.2 和 10.1。
 
   
 
@@ -136,7 +136,7 @@ PyTorch 支持使用 GPU 加载模型运算，也能在仅使用CPU 的情况下
 建议配置 [Anaconda](https://docs.anaconda.com/anaconda/install/windows/) 环境。
 
 
-#### Conda
+#### 使用 Conda
 
 **安装过程**
 
@@ -168,7 +168,7 @@ PyTorch 支持使用 GPU 加载模型运算，也能在仅使用CPU 的情况下
 
 
 
-#### Pip
+#### 使用 Pip
 
 由于 [pip](https://pypi.org/project/pip) 的安装捆绑在 Python 的安装程序中，此处假定您的系统中已经可以使用 pip。
 
@@ -202,7 +202,7 @@ PyTorch 支持使用 GPU 加载模型运算，也能在仅使用CPU 的情况下
 
 
 
-#### LibTorch
+#### 使用 LibTorch
 
 *LibTorch* 是 PyTorch 的 C++ 分发包。 
 
@@ -250,7 +250,7 @@ PyTorch 支持使用 GPU 加载模型运算，也能在仅使用CPU 的情况下
 
 - CMake 的生成器；
 
-  - Visual Studio 2017 —要求高于 15.3.3 版本并配备 14.11 版本工具集；
+  - Visual Studio 2017 —— 要求高于 15.3.3 版本并配备 14.11 版本工具集；
   - Visual Studio 2019
   - [Ninja](https://ninja-build.org/)
 
@@ -329,7 +329,7 @@ PyTorch 支持使用 GPU 加载模型运算，也能在仅使用CPU 的情况下
    for /f "usebackq tokens=*" %i in (`"%ProgramFiles(x86)%\Microsoft Visual Studio\Installer\vswhere.exe" -version [15^,16^) -products * -latest -property installationPath`) do call "%i\VC\Auxiliary\Build\vcvarsall.bat" x64 -vcvars_ver=%CMAKE_GENERATOR_TOOLSET_VERSION%
    ```
 
-5. （以下为可选操作，版本号有较大差异时不推荐执行。）
+5. （以下为可选操作，当版本号有较大差异时不推荐执行。）
 
    若要覆盖 CUDA 主机编译器，请设置 `CUDAHOSTCXX`：
    
