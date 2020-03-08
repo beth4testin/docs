@@ -330,10 +330,11 @@ See also: https://github.com/pytorch/pytorch#from-source
    To specify other generator when Ninja is installed, use `set USE_NINJA=OFF`.
 
 4.  *(Optional but recommended for most cases; essential for Python 3.5 users)* 
-   To override the underlying toolset, add these lines:
-
-   > **Note:** For a Visual Studio generator to do this, the minimum required version of CMake is 3.12.
    
+   To override the underlying toolset, add these lines:
+   
+   > **Note:** For a Visual Studio generator to do this, the minimum required version of CMake is 3.12.
+
    ```python
 set CMAKE_GENERATOR_TOOLSET_VERSION=14.11
    set DISTUTILS_USE_SDK=1
@@ -341,8 +342,9 @@ set CMAKE_GENERATOR_TOOLSET_VERSION=14.11
    ```
    
 5.  *(Optional, but not recommended if there are big version differences)* 
+
    To override the CUDA host compiler, set `CUDAHOSTCXX` :
-   
+
    ```python
    set CUDAHOSTCXX=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\cl.exe
    ```
