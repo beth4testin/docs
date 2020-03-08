@@ -191,7 +191,7 @@ PyTorch 支持使用 GPU 加载模型运算，也能在仅使用CPU 的情况下
 
 - 仅需 CPU 的 PyTorch 版本 
 
-  For systems without CUDA and GPU support, run:
+  若配置不支持 CUDA：
 
   ```python
   pip install torch===1.4.0 torchvision===0.5.0 -f https://download.pytorch.org/whl/torch_stable.htmlCPU-only 
